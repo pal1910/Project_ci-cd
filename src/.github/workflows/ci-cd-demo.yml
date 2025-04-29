@@ -32,7 +32,7 @@ jobs:
 
       - name: Build and Test with Maven
         run: mvn clean install
-        working-directory: java-ci-cd-demo/src
+        
 
   deploy:
     needs: build-and-test
